@@ -24,9 +24,11 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - name: Checkout repo with submodules (theme and public-sub)
+        uses: actions/checkout@v2
         with: 
-          submoudles: true
+          token: ${{ secrets.PERSONAL_TOKEN }}
+          submoudles: 'recursive'
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
