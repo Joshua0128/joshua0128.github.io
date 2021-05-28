@@ -1,5 +1,5 @@
 baseURL = "https://joshua0128.github.io/"
-languageCode = "en-US"
+languageCode = "en"
 title = "Eureka"
 theme = "beautifulhugo"
 
