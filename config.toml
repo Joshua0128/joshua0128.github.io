@@ -11,8 +11,8 @@ paginate = 4
 
 
 [Params]
-  description = "note from wei"
-  subtitle = "blog"
+  description = "記不住的東西都放在這"
+  subtitle = "wei's blog"
   logo = "/images/logo.png"
   favicon = "/favicon.ico"
   comments = true
