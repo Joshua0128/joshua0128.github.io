@@ -1,21 +1,21 @@
 ---
-title: Math Sample
+title: 數學範例
 subtitle: Using KaTeX
 date: 2021-05-28
 tags: ["example", "math"]
 bigimg: [{src: "/img/path.jpg", desc: "Path"}]
 ---
 
-KaTeX can be used to generate complex math formulas server-side. 
+KaTeX 可以用來生成複雜的數學式子。
 
 $$
 \phi = \frac{(1+\sqrt{5})}{2} = 1.6180339887\cdots
 $$
 
-Additional details can be found on [GitHub](https://github.com/Khan/KaTeX) or on the [Wiki](http://tiddlywiki.com/plugins/tiddlywiki/katex/).
+可以在 [GitHub](https://github.com/Khan/KaTeX) 或是 [Wiki](http://tiddlywiki.com/plugins/tiddlywiki/katex/) 上面找到完整的Doc.
 <!--more-->
 
-### Example 1
+### 範例一
 
 If the text between $$ contains newlines it will rendered in display mode:
 ```
