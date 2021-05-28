@@ -1,8 +1,9 @@
 ---
 title: Math Sample
 subtitle: Using KaTeX
-date: 2017-03-05
+date: 2021-05-28
 tags: ["example", "math"]
+bigimg: [{src: "/img/path.jpg", desc: "Path"}]
 ---
 
 KaTeX can be used to generate complex math formulas server-side. 
