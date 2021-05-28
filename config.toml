@@ -1,0 +1,52 @@
+baseURL = "https://joshua0128.github.io/"
+languageCode = "en"
+title = "Eureka"
+theme = "beautifulhugo"
+
+DefaultContentLanguage = "en"
+metaDataFormat = "yaml"
+
+# for high light
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+# disqusShortname = "YOUR_DISQUS_SHORT_NAME"
+# googleAnalytics = "UA-XXXXXXXXX-X"
+paginate = 4
+
+
+[Params]
+  description = "記不住的東西都放在這"
+  subtitle = "wei's blog"
+  logo = "/images/logo.png"
+  favicon = "/favicon.ico"
+  comments = true
+  dateFormat = "January 28, 2020"
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  showRelatedPosts = true
+  socialShare = true
+  delayDisqus = true
+
+
+[Author]
+  name = "joshua0128"
+  website = "https://joshua0128.github.io"
+
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 3
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
