@@ -1,10 +1,16 @@
 baseURL = "https://joshua0128.github.io/"
 languageCode = "en-US"
 title = "Eureka"
-theme = "hago"
+theme = "beautifulhugo"
 
 DefaultContentLanguage = "en"
 metaDataFormat = "yaml"
+
+# for high light
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
 # disqusShortname = "YOUR_DISQUS_SHORT_NAME"
 # googleAnalytics = "UA-XXXXXXXXX-X"
 paginate = 4
@@ -16,9 +22,31 @@ paginate = 4
   logo = "/images/logo.png"
   favicon = "/favicon.ico"
   comments = true
+  dateFormat = "January 28, 2020"
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  showRelatedPosts = true
+  socialShare = true
+  delayDisqus = true
 
-[Category]
 
 [Author]
   name = "joshua0128"
   website = "https://joshua0128.github.io"
+
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 3
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
