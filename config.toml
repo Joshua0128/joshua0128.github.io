@@ -1,6 +1,6 @@
 baseURL = "https://joshua0128.github.io/"
 languageCode = "en"
-title = "Eureka"
+title = "Wei's Blog"
 theme = "beautifulhugo"
 
 DefaultContentLanguage = "en"
@@ -17,8 +17,8 @@ paginate = 4
 
 
 [Params]
-  description = "記不住的東西都放在這"
-  subtitle = "wei's blog"
+  description = ""
+  subtitle = "記不住的東西都放在這"
   logo = "/images/logo.png"
   favicon = "/favicon.ico"
   comments = true
