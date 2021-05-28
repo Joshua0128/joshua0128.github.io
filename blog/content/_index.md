@@ -1,4 +1,4 @@
 ---
-title: "Home"
+title: "Posts"
 ---
 This is some info about me.
