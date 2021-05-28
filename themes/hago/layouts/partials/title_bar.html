@@ -9,9 +9,12 @@
         {{ if .Title }}
         <a href="{{ .Permalink }}">
           <h1>
-            {{ .Title }}
+            {{ .Site.Params.subtitle }}
           </h1>
         </a>
+        <h2>
+          {{ .Site.Params.description }}
+        </h2>
         {{ else }}
         <a href="/">
           <h1>
