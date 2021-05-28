@@ -3,7 +3,7 @@ title: 數學範例
 subtitle: Using KaTeX
 date: 2021-05-28
 tags: ["example", "math"]
-bigimg: [{src: "/img/path.jpg", desc: "Path"}]
+# bigimg: [{src: "/img/path.jpg", desc: "Path"}]
 ---
 
 KaTeX 可以用來生成複雜的數學式子。
